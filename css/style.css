@@ -1,25 +1,11 @@
 @import url(normalize.css);
-.page {
-  box-sizing: border-box;
-}
+@import url(page.css);
 
-.page__wrapper {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
 
-.design {
-  background-image: url(/images/design.png);
-  background-size: cover;
-}
-
-.motion {
-  background-image: url(/images/motion.png);
-  background-size: cover;
-}
-
-.engine {
-  background-image: url(/images/engine.png);
-  background-size: cover;
+:root {
+  font-family: "Roboto", sans-serif;
+  font-family: "Viga", sans-serif;
+  --text-color: #ffffff;
 }

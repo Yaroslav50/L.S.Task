@@ -1,0 +1,121 @@
+body {
+    overflow: hidden;
+  }
+  
+  .page {
+    display: flex;
+    flex-wrap: nowrap;
+    transform: translateX(0);
+  }
+  
+  .page__wrapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+    flex-shrink: 0;
+  }
+  
+  .page__content {
+    padding: 150px 100px;
+    max-width: 515px;
+  }
+  
+  .design {
+    background-image: url(/images/design.png);
+    background-size: cover;
+  }
+  
+  .motion {
+    background-image: url(/images/motion.png);
+    background-size: cover;
+  }
+  
+  .engine {
+    background-image: url(/images/engine.png);
+    background-size: cover;
+  }
+  
+  svg {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+  
+  .arrow__wrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0px 100px;
+    bottom: 75px;
+    width: 100%;
+  }
+  
+  #arrow_right:hover,
+  #arrow_left:hover {
+    cursor: pointer;
+  }
+  
+  h3 {
+    margin: 0;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--text-color);
+  }
+  
+  h2 {
+    margin: 0;
+    margin-top: 1px;
+    margin-left: -12px;
+    font-family: "Viga";
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 128px;
+    color: var(--text-color);
+  }
+  
+  p {
+    margin: 0;
+    margin-top: 65px;
+    margin-bottom: 39px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+    opacity: 0.7;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--text-color);
+  }
+  
+  a::before {
+    content: "\2218    ";
+  }
+  
+  .line {
+    margin-left: 16px;
+    height: 1px;
+    width: 116px;
+    background-color: var(--text-color);
+  }
+  
+  .link {
+    transition: opacity 0.2s ease-in;
+  }
+  
+  .link:hover {
+    opacity: 0.5;
+  }
+  

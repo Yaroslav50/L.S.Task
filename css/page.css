@@ -14,7 +14,6 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  /* overflow: hidden; */
   flex-shrink: 0;
 }
 
@@ -120,4 +119,39 @@ a::before {
 }
 
 @media (max-width: 768px) {
+  h3 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 64px;
+  }
+
+  p {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 33px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .page__content {
+    padding: 75px 50px;
+    max-width: 260px;
+  }
+
+  .line {
+    margin-left: 8px;
+    width: 58px;
+  }
+
+  .arrow__wrapper {
+    padding: 0 50px;
+  }
 }

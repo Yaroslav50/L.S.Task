@@ -24,17 +24,17 @@ body {
 }
 
 .design {
-  background-image: url(/images/design.png);
+  background-image: url(../images/design.png);
   background-size: cover;
 }
 
 .motion {
-  background-image: url(/images/motion.png);
+  background-image: url(../images/motion.png);
   background-size: cover;
 }
 
 .engine {
-  background-image: url(/images/engine.png);
+  background-image: url(../images/engine.png);
   background-size: cover;
 }
 

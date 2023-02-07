@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   transform: translateX(0);
+  transition: transform 0.7s ease-out;
 }
 
 .page__wrapper {

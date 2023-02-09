@@ -25,16 +25,19 @@ body {
 
 .design {
   background-image: url(../images/design.png);
+  background-position: 50%;
   background-size: cover;
 }
 
 .motion {
   background-image: url(../images/motion.png);
+  background-position: 50%;
   background-size: cover;
 }
 
 .engine {
   background-image: url(../images/engine.png);
+  background-position: 50%;
   background-size: cover;
 }
 
